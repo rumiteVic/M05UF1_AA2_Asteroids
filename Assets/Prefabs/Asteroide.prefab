@@ -101,7 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61963c313bc74bc4cbb0f4daaa228e61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
+  rb: {fileID: 8179511283572255716}
+  asteroide: {fileID: 8179511283572255712}
+  movement_rotation: 1
 --- !u!50 &8179511283572255716
 Rigidbody2D:
   serializedVersion: 4
