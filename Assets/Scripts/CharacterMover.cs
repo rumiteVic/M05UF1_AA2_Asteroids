@@ -23,8 +23,6 @@ public class CharacterMover : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        Debug.Log("horizontal");
-
         if (vertical > 0)
         {
             //transform.position = transform.position + transform.up * vertical * movement_speed * Time.deltaTime;
